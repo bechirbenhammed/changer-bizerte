@@ -1,0 +1,22 @@
+# PHP CONFIG
+#php_value safe_mode             1
+#php_value register_globals      0
+#php_value display_errors        0
+#php_value file_uploads          0
+#php_value magic_quotes_gpc      0
+#php_value magic_quotes_sybase   1
+#php_value open_basedir           /usr/bin
+
+# WINDOWS ARABE CHARSET
+#AddCharset windows-1256         .html
+#php_value  default_charset      windows-1256
+
+RewriteEngine Off
+
+php_flag magic_quotes_gpc off
+php_value upload_max_filesize 200M
+php_value post_max_size 64M
+php_value max_execution_time 300
+php_value max_input_time 300
+php_flag display_startup_errors off
+php_flag display_errors off

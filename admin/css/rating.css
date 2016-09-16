@@ -1,0 +1,321 @@
+/*  styles for the unit rater
+--------------------------------------------------------- 
+ryan masuga, masugadesign.com
+ryan@masugadesign.com 
+Licensed under a Creative Commons Attribution 3.0 License.
+http://creativecommons.org/licenses/by/3.0/
+See readme.txt for full credit details.
+--------------------------------------------------------- */
+
+.ratingblock {
+    display:block;
+    border-bottom:1px solid #999;
+    padding-bottom:8px;
+    margin-bottom:8px;
+}
+
+.loading {
+    height: 11px;
+    background: url('../images/working.gif') 50% 50% no-repeat;
+}
+
+.unit-rating { /* the UL */
+    list-style:none;
+    margin: 0px;
+    padding:0px;
+    height: 11px;
+    position: relative;
+    background: url('../images/starrating.gif') top left repeat-x;		
+}
+
+.unit-rating li{
+    text-indent: -90000px;
+    padding:0px;
+    margin:0px;
+    /*\*/
+    float: left;
+    /* */
+}
+
+.unit-rating li a {
+    outline: none;
+    display:block;
+    width:13px;
+    height: 11px;
+    text-decoration: none;
+    text-indent: -9000px;
+    z-index: 20;
+    position: absolute;
+    padding: 0px;
+}
+
+.unit-rating li a:hover{
+    background: url('../images/starrating.gif') left center;
+    z-index: 2;
+    left: 0px;
+}
+
+.unit-rating a.r1-unit{left: 0px;}
+.unit-rating a.r1-unit:hover{width:13px;}
+.unit-rating a.r2-unit{left:13px;}
+.unit-rating a.r2-unit:hover{width:26px;}
+.unit-rating a.r3-unit{left: 26px;}
+.unit-rating a.r3-unit:hover{width: 39px;}
+.unit-rating a.r4-unit{left:39px;}	
+.unit-rating a.r4-unit:hover{width: 52px;}
+.unit-rating a.r5-unit{left: 52px;}
+.unit-rating a.r5-unit:hover{width: 65px;}
+
+
+.unit-rating li.current-rating {
+    background: url('../images/starrating.gif') left bottom;
+    position: absolute;
+    height: 11px;
+    display: block;
+    text-indent: -9000px;
+    z-index: 1;
+}
+
+.voted {color:#999;}
+.thanks {color:#36AA3D;}
+.static {color:#5D3126;}	
+
+
+
+
+
+.unit-rating2 { /* the UL */
+    list-style:none;
+    margin: 0px;
+    padding:0px;
+    height: 17px;
+    position: relative;
+    background: url('../images/starrating2.png') top left repeat-x;		
+}
+
+.unit-rating2 li{
+    text-indent: -90000px;
+    padding:0px;
+    margin:0px;
+    /*\*/
+    float: left;
+    /* */
+}
+
+.unit-rating2 li a {
+    outline: none;
+    display:block;
+    width:19px;
+    height: 17px;
+    text-decoration: none;
+    text-indent: -9000px;
+    z-index: 20;
+    position: absolute;
+    padding: 0px;
+}
+
+.unit-rating2 li a:hover{
+    background: url('../images/starrating2.png') left center;
+    z-index: 2;
+    left: 0px;
+}
+
+.unit-rating2 a.r1-unit{left: 0px;}
+.unit-rating2 a.r1-unit:hover{width:19px;}
+.unit-rating2 a.r2-unit{left:19px;}
+.unit-rating2 a.r2-unit:hover{width:38px;}
+.unit-rating2 a.r3-unit{left: 38px;}
+.unit-rating2 a.r3-unit:hover{width: 57px;}
+.unit-rating2 a.r4-unit{left:57px;}	
+.unit-rating2 a.r4-unit:hover{width: 76px;}
+.unit-rating2 a.r5-unit{left: 76px;}
+.unit-rating2 a.r5-unit:hover{width: 95px;}
+
+
+.unit-rating2 li.current-rating {
+    background: url('../images/starrating2.png') left bottom;
+    position: absolute;
+    height: 17px;
+    display: block;
+    text-indent: -9000px;
+    z-index: 1;
+}	
+
+.ratingie {
+    margin-left:-47px;
+}
+.ratingie2 {
+    margin-left:-32px;
+}
+
+
+.unit-rating3 { /* the UL */
+    list-style:none;
+    margin: 0px;
+    padding:0px;
+    height: 14px;
+    position: relative;
+    background: url('../images/starrating.gif') top left repeat-x;		
+}
+
+.unit-rating3 li{
+    text-indent: -90000px;
+    padding:0px;
+    margin:0px;
+    /*\*/
+    float: left;
+    /* */
+}
+
+.unit-rating3 li a {
+    outline: none;
+    display:block;
+    width:13px;
+    height: 14px;
+    text-decoration: none;
+    text-indent: -9000px;
+    z-index: 20;
+    position: absolute;
+    padding: 0px;
+}
+
+.unit-rating3 li a:hover{
+    background: url('../images/starrating.gif') left center;
+    z-index: 2;
+    left: 0px;
+}
+
+.unit-rating3 a.r1-unit{left: 0px;}
+.unit-rating3 a.r1-unit:hover{width:13px;}
+.unit-rating3 a.r2-unit{left:13px;}
+.unit-rating3 a.r2-unit:hover{width:26px;}
+.unit-rating3 a.r3-unit{left: 26px;}
+.unit-rating3 a.r3-unit:hover{width: 39px;}
+.unit-rating3 a.r4-unit{left:39px;}	
+.unit-rating3 a.r4-unit:hover{width: 52px;}
+.unit-rating a.r5-unit{left: 52px;}
+.unit-rating3 a.r5-unit:hover{width: 65px;}
+
+
+.unit-rating3 li.current-rating {
+    background: url('../images/starrating.gif') left bottom;
+    position: absolute;
+    height: 14px;
+    display: block;
+    text-indent: -9000px;
+    z-index: 1;
+}
+
+.unit-rating-tri { /* the UL */
+    list-style:none;
+    margin: 0px;
+    padding:0px;
+    height: 21px;
+    position: relative;
+    background: url('../images/evaluation.gif') top left repeat-x;		
+}
+
+.unit-rating-tri li{
+    text-indent: -90000px;
+    padding:0px;
+    margin:0px;
+    /*\*/
+    float: left;
+    /* */
+}
+
+.unit-rating-tri li a {
+    outline: none;
+    display:block;
+    width:13px;
+    height: 11px;
+    text-decoration: none;
+    text-indent: -9000px;
+    z-index: 20;
+    position: absolute;
+    padding: 0px;
+}
+
+.unit-rating-tri li a:hover{
+    background: url('../imagess/evaluation.gif') left center;
+    z-index: 2;
+    left: 0px;
+}
+
+.unit-rating-tri a.r1-unit{left: 0px;}
+.unit-rating-tri a.r1-unit:hover{width:13px;}
+.unit-rating-tri a.r2-unit{left:13px;}
+.unit-rating-tri a.r2-unit:hover{width:26px;}
+.unit-rating-tri a.r3-unit{left: 26px;}
+.unit-rating-tri a.r3-unit:hover{width: 39px;}
+.unit-rating-tri a.r4-unit{left:39px;}	
+.unit-rating-tri a.r4-unit:hover{width: 52px;}
+.unit-rating-tri a.r5-unit{left: 52px;}
+.unit-rating-tri a.r5-unit:hover{width: 65px;}
+
+
+.unit-rating-tri li.current-rating-tri {
+    background: url('../images/evaluation.gif') left bottom;
+    position: absolute;
+    height: 21px;
+    display: block;
+    text-indent: -9000px;
+    z-index: 1;
+}
+
+.unit-rating-semaine { /* the UL */
+    list-style:none;
+    margin: 0px;
+    padding:0px;
+    height: 14px;
+    position: relative;
+    background: url('../images/avissemaine.gif') top left repeat-x;		
+}
+
+.unit-rating-semaine li{
+    text-indent: -90000px;
+    padding:0px;
+    margin:0px;
+    /*\*/
+    float: left;
+    /* */
+}
+
+.unit-rating-semaine li a {
+    outline: none;
+    display:block;
+    width:13px;
+    height: 14px;
+    text-decoration: none;
+    text-indent: -9000px;
+    z-index: 20;
+    position: absolute;
+    padding: 0px;
+}
+
+.unit-rating-semaine li a:hover{
+    background: url('../images/avissemaine.gif') left center;
+    z-index: 2;
+    left: 0px;
+}
+
+.unit-rating-semaine a.r1-unit{left: 0px;}
+.unit-rating-semaine a.r1-unit:hover{width:13px;}
+.unit-rating-semaine a.r2-unit{left:13px;}
+.unit-rating-semaine a.r2-unit:hover{width:26px;}
+.unit-rating-semaine a.r3-unit{left: 26px;}
+.unit-rating-semaine a.r3-unit:hover{width: 39px;}
+.unit-rating-semaine a.r4-unit{left:39px;}	
+.unit-rating-semaine a.r4-unit:hover{width: 52px;}
+.unit-rating-semaine a.r5-unit{left: 52px;}
+.unit-rating-semaine a.r5-unit:hover{width: 65px;}
+
+
+.unit-rating-semaine li.current-rating-semaine {
+    background: url('../images/avissemaine.gif') left bottom;
+    position: absolute;
+    height: 14px;
+    display: block;
+    text-indent: -9000px;
+    z-index: 1;
+}
